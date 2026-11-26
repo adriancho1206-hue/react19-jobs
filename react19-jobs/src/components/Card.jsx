@@ -1,12 +1,9 @@
-import React from 'react'
-
-const Card = ({children, bg="bg-gray-100"}) => {
+const Card = ({ children, bg = 'bg-white' }) => {
   return (
-    <div className={`${bg} rounded-lg p-6
-    shadow-md`}>
+    <div className={`${bg} rounded-xl p-6 shadow-md`}>
       {children}
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

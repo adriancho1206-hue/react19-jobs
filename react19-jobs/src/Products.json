@@ -1,0 +1,31 @@
+{
+  "Products": [
+    {
+      "id": "1",
+      "name": "Teclado Mecánico 75%",
+      "category": "Electrónica",
+      "price": 85,
+      "stock": 12,
+      "featured": true,
+      "description": "Teclado compacto inalámbrico con switches táctiles, retroiluminación y conexión USB-C."
+    },
+    {
+      "id": "2",
+      "name": "Termo Acero Inoxidable 1L",
+      "category": "Hogar",
+      "price": 28,
+      "stock": 25,
+      "featured": true,
+      "description": "Mantiene bebidas frías hasta 24 horas y calientes hasta 12 horas sin condensación."
+    },
+    {
+      "id": "3",
+      "name": "Mochila Urbana Impermeable",
+      "category": "Accesorios",
+      "price": 54,
+      "stock": 8,
+      "featured": false,
+      "description": "Compartimento acolchado para portátil de 16 pulgadas, bolsillos ocultos y tela repelente al agua."
+    }
+  ]
+}

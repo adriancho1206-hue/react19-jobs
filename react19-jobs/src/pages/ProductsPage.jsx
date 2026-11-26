@@ -1,6 +1,6 @@
 import React from 'react'
-import JobListings from '../components/JobListings'
-const JobsPage = () => {    
+import ProductsList from '../components/ProductsList'
+const ProductsPage = () => {    
   return (
    <section className="bg-blue-50 px-4 py-6">
     <JobListings isHome={false}/>
@@ -8,4 +8,4 @@ const JobsPage = () => {
   )
 }
 
-export default JobsPage
+export default ProductsPage

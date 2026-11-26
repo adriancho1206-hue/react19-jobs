@@ -1,21 +1,25 @@
-import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements, } from 'react-router'
-import HomePages from './pages/HomePages';
-import MainLayout from './layouts/MainLayout'
-import JobsPage from './pages/jobsPage'
-import NotFoundPage from './pages/NotFoundPage';
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from 'react-router';
+import MainLayout from './layouts/MainLayout';
+import ProductsPage from './pages/ProductsPage';
+import AddProductPage from './pages/AddProductPage';
+
 const router = createBrowserRouter(
   createRoutesFromElements(
-  <Route path= "/" element={<MainLayout/>} >
-    <Route index element={ <HomePages/> }/>
-    <Route path= "jobs" element= {<JobsPage/>}/>
-    <Route path= "*" element= { <NotFoundPage/> }/>
-  </Route>
-  
-)
-)
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<ProductsPage />} />
+      <Route path="products" element={<ProductsPage />} />
+      <Route path="add-product" element={<AddProductPage />} />
+    </Route>
+  )
+);
 
 const App = () => {
-  return <RouterProvider router={router} />
-}
+  return <RouterProvider router={router} />;
+};
 
-export default App
+export default App;
