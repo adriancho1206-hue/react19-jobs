@@ -10,7 +10,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server --watch src/products.json --port 5000"
+    "server": "npx json-server --watch src/Products.json --port 5000"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",

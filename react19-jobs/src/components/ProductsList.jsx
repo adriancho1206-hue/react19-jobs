@@ -18,7 +18,7 @@ const ProductsList = ({ productsPromise, isHome = false, selectedCategory = 'Tod
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {itemsToShow.map((product) => (
-        <ProductCard key={product.id} product={product} />
+        <ProductsCard key={product.id} product={product} />
       ))}
     </div>
   );
